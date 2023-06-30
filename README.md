@@ -5,6 +5,8 @@ Zabbix 繁體中文前端頁面翻譯
 
 1.確認有安裝繁體中文語系  
 ```localectl list-locales```  
+沒有的話安裝  
+```apt install language-pack-zh-han*```  
 
 2.下載中文字體(這裡使用 NotoSansTC)  
 ```curl -o /usr/share/zabbix/assets/fonts/NotoSansTC[wght].ttf https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf```  
