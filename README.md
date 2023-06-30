@@ -27,8 +27,8 @@ Zabbix 繁體中文前端頁面翻譯
 7.取代原本翻譯檔  
 ```cp frontend.mo /usr/share/zabbix/locale/zh_TW/LC_MESSAGES/frontend.mo```  
 
-8.重啟網頁服務  
-```systemctl restart httpd```  
+8.重啟服務、Web service  
+```systemctl restart zabbix-server.service httpd```  
 
 完成！！  
 
