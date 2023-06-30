@@ -21,6 +21,7 @@ Zabbix 繁體中文前端頁面翻譯
 ```cp /usr/share/zabbix/locale/zh_TW/LC_MESSAGES/frontend.mo /usr/share/zabbix/locale/zh_TW/LC_MESSAGES/frontend.mo.bak```  
 
 6.下載 frontend.po 後編譯翻譯檔  
+```curl -o frontend.po https://raw.githubusercontent.com/kuan909608/zabbix_6.4_frontend_zh_TW/main/frontend.po```  
 ```msgfmt frontend.po -ofrontend.mo```  
 
 7.取代原本翻譯檔  
