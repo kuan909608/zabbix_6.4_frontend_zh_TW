@@ -9,7 +9,7 @@ Zabbix 繁體中文前端頁面翻譯
 ```apt install language-pack-zh-han*```  
 
 2.下載中文字體(這裡使用 NotoSansTC)  
-```curl -o /usr/share/zabbix/assets/fonts/NotoSansTC[wght].ttf https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf```  
+```wget -o /usr/share/zabbix/assets/fonts/NotoSansTC[wght].ttf https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf```  
 
 3.修改設定檔 locales.inc.php，找到 function getLocales() 啟用繁體中文選項(false => true)  
 ```nano /usr/share/zabbix/include/locales.inc.php```  
